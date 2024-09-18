@@ -1,0 +1,78 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/blue-black-abstract-background_1340-17010.jpg?w=1800&t=st=1726656494~exp=1726657094~hmac=e4b0804f8b4adb09440b34d957a2db9c873a3a90968f6b827e6b4df75b51c745");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: rgb(84, 18, 190);
+    border-radius: 15px;
+    /*padding: 20px 10px;*/
+}
+
+.header img {
+    height: 50px;
+    width: 50px;
+}
+
+.header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+    background-color: rgb(44, 10, 124);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.header a.active {
+    background-color: rgb(44, 10, 124);
+    color: white;
+}
+
+/* Float the link section to the right */
+.header-Right {
+    float: right;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(84, 18, 190);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#content {
+    color: maroon;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+}
